@@ -4,10 +4,10 @@
 
 using namespace std;
 
-// Defining a time if day
+// Defining a time of day
 struct timeStruct
 {
-  string meridian; 
+  string meridian; // Accepts either "AM" or "PM"
   int hour;
   int minute;
   int second;
